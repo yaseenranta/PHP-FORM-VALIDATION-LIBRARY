@@ -12,7 +12,7 @@ $formValidation  = formValidation();
 1 - required \
 2 - validEmail
 
-$formValidation->addRule('fieldname',''required'); \
+$formValidation->addRule('fieldname',''required'); \ 
 $formValidation->addRule('fieldname',''required|validEmail');
 
 ## check validation successful or not ##
